@@ -5,7 +5,7 @@ export const appErrorHandler = (
   err: AppError,
   _req: Request,
   res: Response,
-  _next: NextFunction
+  _next: NextFunction,
 ) => {
   console.log(err);
 
@@ -19,7 +19,7 @@ export const genericErrorHandler = (
   err: Error,
   _req: Request,
   res: Response,
-  _next: NextFunction
+  _next: NextFunction,
 ) => {
   console.log(err);
 
